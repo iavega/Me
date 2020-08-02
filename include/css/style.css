@@ -14,7 +14,7 @@
     .css-page .barra-menu {
         height: 13.5% !important;
         border-bottom: 0.1rem solid white;
-        background-color:#26262d;
+        background-color:#31313a;
         width: 104% !important;
         position: fixed;
 
@@ -22,7 +22,7 @@
 
     .css-main .div-link {
         font-size: 67% !important;
-        width: 8% !important;
+        width: 18% !important;
 
     }
     .css-main {
