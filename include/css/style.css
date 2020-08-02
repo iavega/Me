@@ -20,7 +20,9 @@
     }
 
     .css-main .div-link {
-        font-size: 100% !important;
+        font-size: 78% !important;
+        width: 13% !important;
+
     }
     .css-main {
         position: fixed;
