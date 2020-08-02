@@ -1,79 +1,67 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/1741e22086.js" crossorigin="anonymous"></script>
-        <style>
-        .img-central {
-            clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
-        }
-        .img-central:hover {
-            filter: grayscale(80%);
-        }
-        .hr-1{
-            padding: 0px  !important;
-            transition:color .3s ease 0s !important;
-            -webkit-transition:color .3s ease 0s !important;
-            color:white !important;
-            margin-right: -14px;
-        }
-        .hr-2{
-            padding: 0px  !important;
-            transition:color .3s ease 0s !important;
-            -webkit-transition:color .3s ease 0s !important;
-            color:white !important;
-            margin-right: -14px;
-            margin-bottom: 0px !important;
-        }
-        .menu:hover { color: greenyellow !important; }
-        #text {
-            padding: 0px;
-        }
-        .sombra {
-            box-shadow: 6px 6px 0px black;
-        }
-        </style>
-    </head>
-    <body style="background-color:#26262d !important;font-family: initial;overflow-y: hidden;">
-        <div class="row justify-content-md-center h-100 mt-5">
-            <div class="col-9 h-75 pt-5 text-white">
-            <div class="row h-100">
-                <div class="col-1 mr-3 h-100">
-                    <div class="row justify-content-md-center">
-                        <div class="col-12  text-center pt-2" style="background-color:#31313a;font-size:10px">
-                            <a href="#Inicio" class="menu text-decoration-none text-white" >
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="include/css/bootstrap.min.css">
+    <link rel="stylesheet" href="include/css/style.css">
+</head>
+
+<body style="background-color:#26262d !important;font-family: initial;">
+    <div class="row justify-content-md-center h-100 mt-3">
+        <div class="col-md-9 col-12 col-sm-12 h-75 text-white">
+            <div class="css-page row h-100">
+                <div class="css-main col-md-1 col-12 col-sm-12 mr-3 barra-menu">
+                    <div class="row barra-menu justify-content-md-center h-75">
+                        <!--div class="col-12  text-center pt-2" style="background-color:#31313a;font-size:10px"-->
+                        <div class="col-md-12 col-15 col-sm-15 text-center pt-3 div-link"
+                            style="background-color:#31313a;font-size:10px">
+                            <a href="#Inicio" class="menu text-decoration-none text-white">
                                 <i class="fas fa-user" style="font-size: x-large;"></i><br>
                                 INICIO
                             </a>
-                            <hr class="hr-1">
-                            <a href="#Inicio" class="menu text-decoration-none text-white" >
+                        </div>
+                        <hr class="hr-1">
+                        <div class="col-md-12 col-15 col-sm-15 text-center pt-3 div-link"
+                            style="background-color:#31313a;font-size:10px">
+                            <a href="#Inicio" class="menu text-decoration-none text-white">
                                 <i class="fas fa-poll-h" style="font-size: x-large;"></i><br>
                                 RESUMEN
                             </a>
-                            <hr class="hr-1">
-                            <a href="#Inicio" class="menu text-decoration-none text-white" >
+                        </div>
+                        <hr class="hr-1">
+                        <div class="col-md-12 col-15 col-sm-15 text-center pt-3 div-link"
+                            style="background-color:#31313a;font-size:10px">
+                            <a href="#Inicio" class="menu text-decoration-none text-white">
                                 <i class="fas fa-wrench" style="font-size: x-large;"></i><br>
                                 TRABAJO
                             </a>
-                            <hr class="hr-1">
-                            <a href="#Inicio" class="menu text-decoration-none text-white" >
+                        </div>
+                        <hr class="hr-1">
+                        <div class="col-md-12 col-15 col-sm-15 text-center pt-3 div-link"
+                            style="background-color:#31313a;font-size:10px">
+                            <a href="#Inicio" class="menu text-decoration-none text-white">
                                 <i class="fas fa-blog" style="font-size: x-large;"></i><br>
                                 BLOG
                             </a>
-                            <hr class="hr-1">
-                            <a href="#Inicio" class="menu text-decoration-none text-white" >
+                        </div>
+                        <hr class="hr-1">
+                        <div class="col-md-12 col-15 col-sm-15 text-center pt-3 div-link"
+                            style="background-color:#31313a;font-size:10px">
+                            <a href="#Inicio" class="menu text-decoration-none text-white">
                                 <i class="fas fa-id-card" style="font-size: x-large;"></i><br>
                                 CONTACTO
                             </a>
-                            <hr class="hr-2">
                         </div>
+                        <hr class="hr-2">
+                        <!--/div-->
                     </div>
                 </div>
-                <div class="col-4 h-100 pl-0 pr-0 rounded sombra" style="background-color:#31313a;font-size:1px">
+                <div class="css-presentation col-md-4 col-12 col-sm-12 h-100 pl-0 pr-0 rounded sombra"
+                    style="background-color:#31313a;font-size:1px">
                     <img class="img-central h-50" src="lake.jpg" style='width:inherit'>
                     <div class="text-center h-25 pt-4">
-                        <h3>Iam Alberto Vega Batista</h3><br>
-                        <h5 style="color:greenyellow;">Full Stack Developers</h5><br><br><br><br>
+                        <h3>Iam Alberto Vega Batista</h3>
+                        <h5 style="color:greenyellow;">Full Stack Developers</h5>
                         <p class="mb-5">
                             <i class="fab fa-linkedin-in mr-2" style="font-size: medium;"></i>
                             <i class="fab fa-github mr-2" style="font-size: medium;"></i>
@@ -82,21 +70,16 @@
                             <i class="fab fa-twitter mr-2" style="font-size: medium;"></i>
                             <i class="fab fa-medium-m" style="font-size: medium;"></i>
                         </p>
-                        <div class="col-12 mt-2" style="position:absolute;bottom:10px;">
-                            <div class="col-6 pt-2 border-top border-right pl-0" style="font-size:small">
-                                DOWNLOAD CSV <i class="fas fa-cloud-download-alt" style="font-size: medium;"></i>
-                            </div>
-                            <div class="col-6 ">
-
-                            </div>
-                        </div>
                     </div>
                 </div>
-                <div class="col-6 pl-0 pr-0 ml-1 rounded sombra" style="background-color:#31313a;height: 95%!important;margin-top:8px;">
+                <div class="css-content col-md-6 col-12 col-sm-12 pl-0 pr-0 ml-1 rounded sombra"
+                    style="background-color:#31313a;height: 95%!important;margin-top:8px;">
 
                 </div>
             </div>
-            </div>
         </div>
-    </body>
+    </div>
+    <script src="https://kit.fontawesome.com/1741e22086.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
