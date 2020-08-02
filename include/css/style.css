@@ -15,13 +15,14 @@
         height: 13.5% !important;
         border-bottom: 0.1rem solid white;
         background-color:#26262d;
-        width: 100% !important;
+        width: 104% !important;
+        position: fixed;
 
     }
 
     .css-main .div-link {
-        font-size: 78% !important;
-        width: 13% !important;
+        font-size: 67% !important;
+        width: 8% !important;
 
     }
     .css-main {
