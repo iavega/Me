@@ -7,6 +7,9 @@
     .mt-3 {
         margin-top: 0px !important;
     }
+    .pt-5{
+        padding-top: 0px !important;
+    }
 
     .css-page .barra-menu {
         height: 18% !important;
@@ -38,7 +41,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px){
     .h-75 {
         height: 75% !important;
     }
