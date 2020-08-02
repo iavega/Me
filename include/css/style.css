@@ -1,4 +1,4 @@
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 767px) {
     .css-main .col-sm-15 {
         width: 20%;
         float: left;
@@ -42,6 +42,11 @@
     .h-75 {
         height: 75% !important;
     }
+    .col-md-2 {
+        flex:0 0 16.666667%;
+        max-width: 10.666667% !important
+    }
+
 }
 
 .img-central {
