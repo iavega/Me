@@ -12,16 +12,27 @@
     }
 
     .css-page .barra-menu {
-        height: 17.5% !important;
-        border-bottom: 0.5rem solid white;
+        height: 13.5% !important;
+        border-bottom: 0.1rem solid white;
+        background-color:#26262d;
+        width: 100% !important;
+
     }
 
     .css-main .div-link {
-        font-size: 15px !important;
+        font-size: 100% !important;
     }
-
+    .css-main {
+        position: fixed;
+        z-index: 1;
+    }
     .css-main .menu {
-        height: 100% !important
+        height: 100% !important;
+        position: fixed;
+        z-index: 1;
+    }
+    .css-main .menu a {
+        display: block;
     }
 
     .css-main  .menu>i {
@@ -31,7 +42,8 @@
         height: 55% !important;
     }
     .css-presentation {
-        font-size:15px !important
+        font-size:15px !important;
+        margin-top: 13.5%;
     }
     .css-presentation > .h-50 {
         height:60% !important
